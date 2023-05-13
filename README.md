@@ -138,7 +138,7 @@ lastdate değişkeninde tutulan tarih bilgileri ve lastlocation değişkeninde t
 Console.ForegroundColor özelliği kullanılarak yazı rengi kırmızı olarak ayarladım
 
 
- kullanıcının rezervasyon bilgilerini detaylı bir şekilde görüntülemesine yardımcı olmak için tasarlanmıştır. Bu bilgilerin doğru olması, kullanıcının seyahat planlamasını doğru yapmasını sağlar.
+ kullanıcının rezervasyon bilgilerini detaylı bir şekilde görüntülemesine yardımcı olmak için tasarladım. Bu bilgilerin doğru olması, kullanıcının seyahat planlamasını doğru yapmasını sağlar.
 
 
 
