@@ -1,4 +1,50 @@
 # FLIGHT RESERVATION
+Bu uygulama, kullanıcıların bir uçak rezervasyonu yapmasına olanak tanır. Kullanıcılar, uçuş tarihleri,lokasyon ve koltuk seçimleri gibi bilgileri girerek bir rezervasyon yaparlar
+Uygulama başlatıldığında kullanıcı bilgileri girilmesi istenir.seçilen yer,tarihten sonra
+Ödeme bilgileri (kart numarası, son kullanma tarihi, CVV)
+Kullanıcı bu bilgileri doğru bir şekilde girdikten sonra, rezervasyon işlemi tamamlanır ve ekranda rezervasyon bilgileri detaylarıyla birlikte görüntülenir.
+Bu uygulamanın temel kod yapısı aşağıdaki gibidir:
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Kullanıcı bilgileri isteniyor
+        Kullanici kullanici = KullaniciBilgileriAl();
+
+        // Uçuş bilgileri istenir
+        
+        Konum  = KonumBilgileriAl();
+        Tarih tarih = TarihBilgileriAl();
+        // Koltuk seçimi yapılır
+        string koltukTipi = KoltukSecimi();
+
+        // Ödeme yapılıyor
+        OdemeYap();
+
+        // Detaylı bilgiler gösteriliyor
+        DetayBilgi();
+    }
+
+    static void KoltukSecimi()
+    {
+        // Koltuk seçimi yapılıyor
+    }
+
+    static void OdemeYap()
+    {
+        // Ödeme işlemi yapılıyor
+    }
+
+    static void DetayBilgi()
+    {
+        // Rezervasyon bilgileri detaylarıyla birlikte gösteriliyor
+    }
+}
+
+
+
+
+
 Kullanıcı bilgilerinin girilebilmesi için bir sınıf oluşturdum ve bu sınıftaki bilgilere uygulama içindeki diğer sınıfların ulaşabilmesi için User adında bir dahili sınıf oluşturdum.
 class User : class Base,class Base,Bu ifade, User sınıfının, Base adlı başka bir sınıftan özellikleri alacağını ve User sınıfının, Base sınıfının tüm genel özelliklerine ve davranışlarına erişebileceğini belirtir
 UserBase class,Ayrıca Konum, Uçak, Gün ve Rezervasyon sınıflarını da oluşturdum. Bu sınıfların amacını açıklamak için:
