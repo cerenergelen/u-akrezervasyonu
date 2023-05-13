@@ -1,8 +1,19 @@
 # FLIGHT RESERVATION
 Bu uygulama, kullanıcıların bir uçak rezervasyonu yapmasına olanak tanır. Kullanıcılar, uçuş tarihleri,lokasyon ve koltuk seçimleri gibi bilgileri girerek bir rezervasyon yaparlar
+
+
 Uygulama başlatıldığında kullanıcı bilgileri girilmesi istenir.seçilen yer,tarihten sonra
+
+
+
 Ödeme bilgileri (kart numarası, son kullanma tarihi, CVV)
+
+
+
 Kullanıcı bu bilgileri doğru bir şekilde girdikten sonra, rezervasyon işlemi tamamlanır ve ekranda rezervasyon bilgileri detaylarıyla birlikte görüntülenir.
+
+
+
 Bu uygulamanın temel kod yapısı aşağıdaki gibidir:
 class Program
 {
