@@ -1,5 +1,6 @@
 # FLIGHT RESERVATION
 Bu uygulama, kullanıcıların bir uçak rezervasyonu yapmasına olanak tanır. Kullanıcılar, uçuş tarihleri,lokasyon ve koltuk seçimleri gibi bilgileri girerek bir rezervasyon yaparlar
+bu program C# dili kullanılarak oluşturulmuştur çalıştırmak için visual studio kullanılır.
 
 
 ÖRNEK KULLANIMI AŞAĞIDAKİ GİBİDİR
@@ -9,17 +10,56 @@ CİNSİYETİNİZ: KADIN
 YAŞINIZ:22
 E-POSTA GİRİNİZ: cerenergelen@gmail.com
 
-1: Turkey, City: Istanbul, AirlineCompany: Turkish Airlines, 
-2: USA, City: New York, AirlineCompany: Laguardia Airlines, 
-3: France, City: Paris, AirlineCompany: Air france, 
-4: Germany, City: Berlin, AirlineCompany: Lufthansa, 
-5: Germany, City: Berlin, AirlineCompany: Schoenefeld, 
-6: Italia, City: Cenova, AirlineCompany: Punta Raisi, 
-7: Russia, City: Moskow, AirlineCompany: Vnukova, 
-8: Italia, City: Milano, AirlineCompany: Punta Raisi, 
-9: Turkey, City: Ankara, AirlineCompany: Esenboğa Airlines 
-10: France, City: Lyon, AirlineCompany: Air France,
+1: Turkey, Istanbul, Turkish Airlines, 
+2: USA,  New York,  Laguardia Airlines, 
+3: France,  Paris, AirlineCompany: Air france, 
+4: Germany,  Berlin, AirlineCompany: Lufthansa, 
+5: Germany,  Berlin,  Schoenefeld, 
+6: Italia, Cenova,  Punta Raisi, 
+7: Russia, Moskow, Vnukova, 
+8: Italia,  Milano,  Punta Raisi, 
+9: Turkey,  Ankara,  Esenboğa Airlines 
+10: France,  Lyon,  Air France,
 lokasyonlardan birini seçiniz: 1
+
+1. 16 mayis 2023 15.00
+2. 17 mayis 2023 15.00
+3. 17 mayis 2023 19.00
+4. 19 mayis 2023 21.00
+5. 14 mayıs 2023 12.00
+6. 12 mayis 2023 5.00
+7. 26 mayis 2023 9.00
+8. 28 mayis 2023 15.00
+9. 6 mayis 2023 1.00
+10. 17 mayis 2023 17.00
+lokasyon için saat seçiniz: 2
+
+koltuk seçiminizi yapın: 1
+koltuk numarası 1. cam kenarı
+koltuk numarası 2. orta kısım
+koltuk numarası 3.koridor tarafı
+
+ödeme tutarı :1500 tl
+
+ödeme tipini giriniz 1.kredi kartı/ 2.banka kartı:1
+
+kredi kartıyla ödeme seçimi başarılı
+
+kart numarasını giriniz:1234123412341234(16 karakterden az veya fazla girilmesi durumunda sistem eror verecek ve tekrar girilmesini isteyecek)
+geçerli kart numarası:1234123412341234
+
+cvv kodunu giriniz:234 (3 karakterden az veya fazla girilmesi durumunda sistem eror verecek ve tekrar girmesini isteyecek)
+
+kartın son kullanma tarihi:1223(4 karakterden fazla veya az girilmesi durumunda sistem tekrar girilmesini isteyecek)
+
+Siz ceren ergelen(22) başarıyla rezervasyon yaptınız
+uçak biletiyle ilgili detaylar cerenergelen@gmail.com adresinize yollanacaktır.
+tarih bilgileri:
+17/mayis/2023 15.00
+konum bilgileri:
+Istanbul/Turkey,Turkish Airlines
+seçtiğiniz koltuk: Cam kenarı
+ödeme tutarı :1500
 
 
 
