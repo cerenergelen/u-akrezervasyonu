@@ -7,39 +7,72 @@ bu program C# dili kullanılarak oluşturulmuştur çalıştırmak için visual 
 
 
 İSİM GİRİNİZ: CEREN
+
+
 SOYİSİM GİRİNİZ: CEREN ERGELEN
+
+
 CİNSİYETİNİZ: KADIN
+
+
 YAŞINIZ:22
+
+
 E-POSTA GİRİNİZ: cerenergelen@gmail.com
 
 1: Turkey, Istanbul, Turkish Airlines, 
+
 2: USA,  New York,  Laguardia Airlines, 
+
 3: France,  Paris, AirlineCompany: Air france, 
+
 4: Germany,  Berlin, AirlineCompany: Lufthansa, 
+
 5: Germany,  Berlin,  Schoenefeld, 
+
 6: Italia, Cenova,  Punta Raisi, 
+
 7: Russia, Moskow, Vnukova, 
+
 8: Italia,  Milano,  Punta Raisi, 
+
 9: Turkey,  Ankara,  Esenboğa Airlines 
+
 10: France,  Lyon,  Air France,
+
 lokasyonlardan birini seçiniz: 1
 
 1. 16 mayis 2023 15.00
-2. 17 mayis 2023 15.00
-3. 17 mayis 2023 19.00
-4. 19 mayis 2023 21.00
-5. 14 mayıs 2023 12.00
-6. 12 mayis 2023 5.00
-7. 26 mayis 2023 9.00
-8. 28 mayis 2023 15.00
-9. 6 mayis 2023 1.00
-10. 17 mayis 2023 17.00
+2. 
+3. 17 mayis 2023 15.00
+4. 
+5. 17 mayis 2023 19.00
+6. 
+7. 19 mayis 2023 21.00
+8. 
+9. 14 mayıs 2023 12.00
+10. 
+11. 12 mayis 2023 5.00
+12. 
+13. 26 mayis 2023 9.00
+14. 
+15. 28 mayis 2023 15.00
+16. 
+17. 6 mayis 2023 1.00
+18. 
+19. 17 mayis 2023 17.00
+20. 
 lokasyon için saat seçiniz: 2
 
+
 koltuk seçiminizi yapın: 1
+
 koltuk numarası 1. cam kenarı
+
 koltuk numarası 2. orta kısım
+
 koltuk numarası 3.koridor tarafı
+
 
 ödeme tutarı :1500 tl
 
