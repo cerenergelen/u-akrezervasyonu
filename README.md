@@ -109,7 +109,7 @@ seçtiğiniz koltuk: Cam kenarı
 
 Kullanıcı bilgilerinin girilebilmesi için bir sınıf oluşturdum ve bu sınıftaki bilgilere uygulama içindeki diğer sınıfların ulaşabilmesi için User adında bir dahili sınıf oluşturdum.
 
-class User : class Base,class Base,Bu ifade, User sınıfının, Base adlı başka bir sınıftan özellikleri alacağını ve User sınıfının, Base sınıfının tüm genel özelliklerine ve davranışlarına erişebileceğini belirtir
+class User : class Base,Bu ifade, User sınıfının, Base adlı başka bir sınıftan özellikleri alacağını ve User sınıfının, Base sınıfının tüm genel özelliklerine ve davranışlarına erişebileceğini belirtir
 
 UserBase class,Ayrıca Konum, Uçak, Gün ve Rezervasyon sınıflarını da oluşturdum. Bu sınıfların amacını açıklamak için:
 Location sınıfı, şehirler, ülkeler ve havaalanları gibi farklı konumlarla ilgili özellikleri ve davranışları içerir. Bu sınıf, uçuşların başlangıç ve bitiş noktalarını tanımlamak için kullanılır.
