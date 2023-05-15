@@ -18,7 +18,7 @@ CİNSİYETİNİZ: KADIN
 YAŞINIZ:22
 
 
-E-POSTA GİRİNİZ: cerenergelen@gmail.com
+E-POSTA GİRİNİZ: cerenergelennn@gmail.com
 
 1: Turkey, Istanbul, Turkish Airlines, 
 
