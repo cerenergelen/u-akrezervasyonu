@@ -1,5 +1,5 @@
 # FLIGHT RESERVATION
-Bu uygulama, kullanıcıların bir uçak rezervasyonu yapmasına olanak tanır. Kullanıcılar, uçuş tarihleri,lokasyon ve koltuk seçimleri gibi bilgileri girerek bir rezervasyon yaparlar
+Bu uygulama, kullanıcıların bir uçak rezervasyonu yapmasına olanak tanır. Kullanıcılar, kişisel bilgilerini,uçuş tarihleri,lokasyon ve koltuk seçimleri gibi bilgileri girerek bir rezervasyon yaparlar
 bu program C# dili kullanılarak oluşturulmuştur çalıştırmak için visual studio kullanılır.
 
 
