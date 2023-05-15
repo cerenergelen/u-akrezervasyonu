@@ -4,6 +4,8 @@ bu program C# dili kullanılarak oluşturulmuştur çalıştırmak için visual 
 
 
 ÖRNEK KULLANIMI AŞAĞIDAKİ GİBİDİR
+
+
 İSİM GİRİNİZ: CEREN
 SOYİSİM GİRİNİZ: CEREN ERGELEN
 CİNSİYETİNİZ: KADIN
