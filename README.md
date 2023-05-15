@@ -2,56 +2,32 @@
 Bu uygulama, kullanıcıların bir uçak rezervasyonu yapmasına olanak tanır. Kullanıcılar, uçuş tarihleri,lokasyon ve koltuk seçimleri gibi bilgileri girerek bir rezervasyon yaparlar
 
 
-Uygulama başlatıldığında kullanıcı bilgileri girilmesi istenir.seçilen yer,tarihten sonra
+ÖRNEK KULLANIMI AŞAĞIDAKİ GİBİDİR
+İSİM GİRİNİZ: CEREN
+SOYİSİM GİRİNİZ: CEREN ERGELEN
+CİNSİYETİNİZ: KADIN
+YAŞINIZ:22
+E-POSTA GİRİNİZ: cerenergelen@gmail.com
+
+1: Turkey, City: Istanbul, AirlineCompany: Turkish Airlines, 
+2: USA, City: New York, AirlineCompany: Laguardia Airlines, 
+3: France, City: Paris, AirlineCompany: Air france, 
+4: Germany, City: Berlin, AirlineCompany: Lufthansa, 
+5: Germany, City: Berlin, AirlineCompany: Schoenefeld, 
+6: Italia, City: Cenova, AirlineCompany: Punta Raisi, 
+7: Russia, City: Moskow, AirlineCompany: Vnukova, 
+8: Italia, City: Milano, AirlineCompany: Punta Raisi, 
+9: Turkey, City: Ankara, AirlineCompany: Esenboğa Airlines 
+10: France, City: Lyon, AirlineCompany: Air France,
+lokasyonlardan birini seçiniz: 1
 
 
 
-Ödeme bilgileri (kart numarası, son kullanma tarihi, CVV)
 
 
 
-Kullanıcı bu bilgileri doğru bir şekilde girdikten sonra, rezervasyon işlemi tamamlanır ve ekranda rezervasyon bilgileri detaylarıyla birlikte görüntülenir.
-
-
-
-Bu uygulamanın temel kod yapısı aşağıdaki gibidir:
-class Program
-{
-    static void Main(string[] args)
-    {
-        // Kullanıcı bilgileri isteniyor
-        Kullanici kullanici = KullaniciBilgileriAl();
-
-        // Uçuş bilgileri istenir
-        
-        Konum  = KonumBilgileriAl();
-        Tarih tarih = TarihBilgileriAl();
-        // Koltuk seçimi yapılır
-        string koltukTipi = KoltukSecimi();
-
-        // Ödeme yapılıyor
-        OdemeYap();
-
-        // Detaylı bilgiler gösteriliyor
-        DetayBilgi();
-    }
-
-    static void KoltukSecimi()
-    {
-        // Koltuk seçimi yapılıyor
-    }
-
-    static void OdemeYap()
-    {
-        // Ödeme işlemi yapılıyor
-    }
-
-    static void DetayBilgi()
-    {
-        // Rezervasyon bilgileri detaylarıyla birlikte gösteriliyor
-    }
-}
-
+   
+       
 
 
 
