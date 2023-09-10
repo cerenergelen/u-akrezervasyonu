@@ -416,13 +416,13 @@ class Program
                     if (size == 16)
                             {
                                 string acceptedKartNo = kartNo;
-                                Console.WriteLine("Gecerli kart numarasi!");
+                                Console.WriteLine("Kart Numarası Geçerli !");
                                 Console.WriteLine(acceptedKartNo);
                                 temp = false;
                             }
                             else
                             {
-                                Console.WriteLine("Gecersiz kart numarasi.");
+                                Console.WriteLine("Geçersiz Kart Numarası !");
                                 if (size > 16)
                                 {
                                     Console.WriteLine("Kart numarasi 16 rakamdan fazla karakter icermemelidir!");
